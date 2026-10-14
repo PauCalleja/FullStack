@@ -1,3 +1,5 @@
+package lambda;
+
 public class Cotxe {
     private String marca;
     public Cotxe(String m) {
@@ -10,7 +12,7 @@ public class Cotxe {
 
     @Override
     public String toString() {
-        return "Cotxe{" +
+        return "lambda.Cotxe{" +
                 "marca='" + marca + '\'' +
                 '}';
     }

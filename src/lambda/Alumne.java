@@ -1,3 +1,4 @@
+package lambda;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -5,7 +6,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Consumer;
-import java.util.function.Function;
 
 public class Alumne implements Comparable<Alumne>{
     private LocalDate dataNaixament;
@@ -38,7 +38,7 @@ public class Alumne implements Comparable<Alumne>{
 
     @Override
     public String toString() {
-        return "Alumne{" +
+        return "lambda.Alumne{" +
                 "dataNaixament=" + dataNaixament +
                 ", nom='" + nom + '\'' +
                 '}';
